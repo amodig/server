@@ -1,0 +1,529 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-09-24T20:17:55+00:00",
+  "redaction_notice": "This report is automatically redacted: home directories, media file paths/names, URL credentials and query strings, passwords/tokens/secrets, e-mail addresses, non-local IP addresses and MAC addresses are replaced by placeholders. Absolute code paths are shortened to be relative to the application root. Media paths and MAC addresses are reduced to a stable hash so identical values can still be correlated within the report.",
+  "system": {
+    "version": "2.11.0.dev2026092403",
+    "python_version": "3.14.7",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "hass_addon": false,
+    "safe_mode": false,
+    "uptime_seconds": 28064,
+    "event_loop_lag_ms": 2.0,
+    "memory": {
+      "rss_mb": 389.6,
+      "rss_anon_mb": 308.3,
+      "rss_file_mb": 81.3,
+      "rss_shmem_mb": 0.0,
+      "cgroup_usage_mb": 478.7,
+      "cgroup_anon_mb": 311.6,
+      "cgroup_file_mb": 149.7,
+      "cgroup_reported_mb": 357.2
+    },
+    "data_dir_disk": {
+      "free_mb": 158870,
+      "total_mb": 357750
+    },
+    "counts": {
+      "threads": 39,
+      "asyncio_tasks": 42,
+      "tracked_tasks": 10,
+      "tracked_timers": 28,
+      "event_subscribers": 14,
+      "websocket_clients": 3,
+      "child_processes": {
+        "cliairplay-linu": 1
+      }
+    }
+  },
+  "install": {
+    "providers": [
+      {
+        "domain": "acoustid_lookup",
+        "instance_id": "acoustid_lookup",
+        "type": "audio_analysis",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "airplay",
+        "instance_id": "airplay",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "ambient_sounds",
+        "instance_id": "ambient_sounds",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "bandcamp",
+        "instance_id": "bandcamp--3fQfW2Gf",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "bbc_sounds",
+        "instance_id": "bbc_sounds",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "builtin",
+        "instance_id": "builtin",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "chromecast",
+        "instance_id": "chromecast",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "coverartarchive",
+        "instance_id": "coverartarchive",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "dlna",
+        "instance_id": "dlna",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "fanarttv",
+        "instance_id": "fanarttv",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "hass",
+        "instance_id": "hass",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "hass_players",
+        "instance_id": "hass_players",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "heos",
+        "instance_id": "heos",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "internet_archive",
+        "instance_id": "internet_archive",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "itunes_artwork",
+        "instance_id": "itunes_artwork",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "itunes_podcasts",
+        "instance_id": "itunes_podcasts",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "jellyfin",
+        "instance_id": "jellyfin--6Y627jox",
+        "type": "music",
+        "enabled": true,
+        "loaded": false,
+        "available": false,
+        "last_error": "Authentication failed: Cannot connect to host <redacted-ip>:8096 ssl:default [Connect call failed ('<redacted-ip>', 8096)]"
+      },
+      {
+        "domain": "lastfm_recommendations",
+        "instance_id": "lastfm_recommendations",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "lastfm_scrobble",
+        "instance_id": "lastfm_scrobble",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": false,
+        "available": false,
+        "last_error": "Last.fm rejected the stored session (Invalid session key - Please re-authenticate)"
+      },
+      {
+        "domain": "loudness_analysis",
+        "instance_id": "loudness_analysis",
+        "type": "audio_analysis",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "lrclib",
+        "instance_id": "lrclib",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "musicbrainz",
+        "instance_id": "musicbrainz",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "party",
+        "instance_id": "party",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "playlist_metadata",
+        "instance_id": "playlist_metadata",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "podcastfeed",
+        "instance_id": "podcastfeed--iHRqc53H",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "radio_playlist",
+        "instance_id": "radio_playlist",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "radiobrowser",
+        "instance_id": "radiobrowser",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "recommendations",
+        "instance_id": "recommendations",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "sendspin",
+        "instance_id": "sendspin",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "sendspin_source",
+        "instance_id": "sendspin_source",
+        "type": "plugin",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "smart_fades",
+        "instance_id": "smart_fades",
+        "type": "audio_analysis",
+        "enabled": false,
+        "loaded": false,
+        "available": false,
+        "last_error": "This system does not meet the minimal requirements for Smart Fades: at least 4GB of RAM is required (1.0GB detected)."
+      },
+      {
+        "domain": "sonos",
+        "instance_id": "sonos",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "soundcloud",
+        "instance_id": "soundcloud--YrmugPx4",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "sync_group",
+        "instance_id": "sync_group",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "theaudiodb",
+        "instance_id": "theaudiodb",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "tidal",
+        "instance_id": "tidal--XGUz7kim",
+        "type": "music",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "universal_player",
+        "instance_id": "universal_player",
+        "type": "player",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      },
+      {
+        "domain": "wikipedia",
+        "instance_id": "wikipedia",
+        "type": "metadata",
+        "enabled": true,
+        "loaded": true,
+        "available": true
+      }
+    ],
+    "players": {
+      "total": 16,
+      "available": 15,
+      "by_provider": {
+        "airplay": 3,
+        "chromecast": 1,
+        "dlna": 2,
+        "heos": 2,
+        "sendspin": 5,
+        "sync_group": 1,
+        "universal_player": 2
+      },
+      "by_type": {
+        "group": 1,
+        "player": 6,
+        "protocol": 9
+      }
+    },
+    "library": {
+      "albums": 136,
+      "artists": 392,
+      "audiobooks": 0,
+      "genres": 133,
+      "playlists": 20,
+      "podcasts": 7,
+      "radio": 5,
+      "tracks": 530
+    },
+    "core_config_non_default": {
+      "metadata": [
+        "language"
+      ]
+    }
+  },
+  "exceptions": [
+    {
+      "type": "SetupFailedError",
+      "fingerprint": "6c8c2dc1b87b",
+      "count": 4,
+      "first_seen": "2026-09-24T19:14:50+00:00",
+      "last_seen": "2026-09-24T19:41:58+00:00",
+      "logger": "music_assistant",
+      "level": "WARNING",
+      "origin": "music_assistant/providers/hass/__init__.py:273 in handle_async_init",
+      "message": "Error loading provider(instance) hass: Cannot connect to host <redacted-ip>:8123 ssl:default [Connect call failed ('<redacted-ip>', 8123)] (will be retried in 11 seconds)",
+      "traceback": "Traceback (most recent call last):\n  File \"aiohttp/connector.py\", line 1301, in _wrap_create_connection\n    sock = await aiohappyeyeballs.start_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"aiohappyeyeballs/impl.py\", line 124, in start_connection\n    raise first_exception\n  File \"aiohappyeyeballs/impl.py\", line 75, in start_connection\n    sock = await _connect_sock(\n           ^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"aiohappyeyeballs/impl.py\", line 210, in _connect_sock\n    await loop.sock_connect(sock, address)\n  File \"/usr/local/lib/python3.14/asyncio/selector_events.py\", line 643, in sock_connect\n    return await fut\n           ^^^^^^^^^\n  File \"/usr/local/lib/python3.14/asyncio/selector_events.py\", line 683, in _sock_connect_cb\n    raise OSError(err, f'Connect call failed {address}')\nConnectionRefusedError: [Errno 111] Connect call failed ('<redacted-ip>', 8123)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"hass_client/client.py\", line 329, in _connect\n    self._client = await self._http_session.ws_connect(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        ws_url, heartbeat=55, max_msg_size=self._max_msg_size, ssl=ssl\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"aiohttp/client.py\", line 1249, in _ws_connect\n    resp = await self.request(\n           ^^^^^^^^^^^^^^^^^^^\n    ...<11 lines>...\n    )\n    ^\n  File \"aiohttp/client.py\", line 858, in _request\n    resp = await handler(req)\n           ^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/client.py\", line 812, in _connect_and_send_request\n    conn = await self._connector.connect(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        req, traces=traces, timeout=real_timeout\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"aiohttp/connector.py\", line 657, in connect\n    proto = await self._create_connection(req, traces, timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/connector.py\", line 1242, in _create_connection\n    _, proto = await self._create_direct_connection(req, traces, timeout)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/connector.py\", line 1620, in _create_direct_connection\n    raise last_exc\n  File \"aiohttp/connector.py\", line 1589, in _create_direct_connection\n    transp, proto = await self._wrap_create_connection(\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<7 lines>...\n    )\n    ^\n  File \"aiohttp/connector.py\", line 1324, in _wrap_create_connection\n    raise client_error(req.connection_key, exc) from exc\naiohttp.client_exceptions.ClientConnectorError: Cannot connect to host <redacted-ip>:8123 ssl:default [Connect call failed ('<redacted-ip>', 8123)]\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"music_assistant/providers/hass/__init__.py\", line 269, in handle_async_init\n    await self.hass.connect()\n  File \"hass_client/client.py\", line 308, in connect\n    await self._connect(ssl)\n  File \"hass_client/client.py\", line 348, in _connect\n    raise CannotConnect(err) from err\nhass_client.exceptions.CannotConnect: Cannot connect to host <redacted-ip>:8123 ssl:default [Connect call failed ('<redacted-ip>', 8123)]\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"music_assistant/mass.py\", line 1020, in load_provider\n    await self.load_provider_config(prov_conf)\n  File \"music_assistant/mass.py\", line 931, in load_provider_config\n    await self._load_provider(prov_conf)\n  File \"music_assistant/mass.py\", line 1425, in _load_provider\n    await provider.handle_async_init()\n  File \"music_assistant/providers/hass/__init__.py\", line 273, in handle_async_init\n    raise SetupFailedError(err_msg) from err\nmusic_assistant_models.errors.SetupFailedError: Cannot connect to host <redacted-ip>:8123 ssl:default [Connect call failed ('<redacted-ip>', 8123)]\n"
+    },
+    {
+      "type": "ValueError",
+      "fingerprint": "f4a833803c92",
+      "count": 1,
+      "first_seen": "2026-09-24T17:33:36+00:00",
+      "last_seen": "2026-09-24T17:33:36+00:00",
+      "logger": "music_assistant.Tidal",
+      "level": "ERROR",
+      "origin": "music_assistant/providers/tidal/library.py:290 in _resolve_resource",
+      "message": "Skipping sync of playlist None - unexpected error: ValueError: Tidal library item 007289a191e6a42067d348a9cfe85b has no resource",
+      "traceback": "Traceback (most recent call last):\n  File \"music_assistant/providers/tidal/library.py\", line 167, in get_playlists\n    resource = _resolve_resource(doc, item)\n  File \"music_assistant/providers/tidal/library.py\", line 290, in _resolve_resource\n    raise ValueError(f\"Tidal library item {_resource_id(item) or '[no id]'} has no resource\")\nValueError: Tidal library item 007289a191e6a42067d348a9cfe85b has no resource\n"
+    },
+    {
+      "type": "RuntimeError",
+      "fingerprint": "eccc687020da",
+      "count": 1,
+      "first_seen": "2026-09-24T16:07:37+00:00",
+      "last_seen": "2026-09-24T16:07:37+00:00",
+      "logger": "music_assistant.webserver",
+      "level": "ERROR",
+      "origin": "music_assistant/controllers/metadata/controller.py:274 in update_metadata",
+      "message": "Error handling message: CommandMessage(message_id='<redacted-token>', command='metadata/update_metadata', args={'item': {'item_id': '136168853', 'provider': 'tidal--XGUz7kim', 'name': 'Sleep Is The Cousin Of Death', 'version': 'Original Mix', 'sort_name': 'sleep is the cousin of death', 'uri': 'tidal--XGUz7kim://track/136168853', 'external_ids': [['isrc', 'GBWUL2059836']], 'is_playable': True, 'media_type': 'track', 'provider_mappings': [{'item_id': '136168853', 'provider_dom",
+      "traceback": "Traceback (most recent call last):\n  File \"music_assistant/controllers/webserver/websocket_client.py\", line 320, in _run_handler\n    result = await result\n             ^^^^^^^^^^^^\n  File \"music_assistant/controllers/metadata/controller.py\", line 274, in update_metadata\n    raise RuntimeError(\"Metadata can only be updated for library items\")\nRuntimeError: Metadata can only be updated for library items\n"
+    },
+    {
+      "type": "LoginFailed",
+      "fingerprint": "65fa1e0788ce",
+      "count": 1,
+      "first_seen": "2026-09-24T12:30:15+00:00",
+      "last_seen": "2026-09-24T12:30:15+00:00",
+      "logger": "music_assistant",
+      "level": "WARNING",
+      "origin": "music_assistant/providers/jellyfin/__init__.py:130 in handle_async_init",
+      "message": "Error loading provider(instance) jellyfin--6Y627jox: Authentication failed: Cannot connect to host <redacted-ip>:8096 ssl:default [Connect call failed ('<redacted-ip>', 8096)]",
+      "traceback": "Traceback (most recent call last):\n  File \"aiohttp/connector.py\", line 1301, in _wrap_create_connection\n    sock = await aiohappyeyeballs.start_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"aiohappyeyeballs/impl.py\", line 124, in start_connection\n    raise first_exception\n  File \"aiohappyeyeballs/impl.py\", line 75, in start_connection\n    sock = await _connect_sock(\n           ^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"aiohappyeyeballs/impl.py\", line 210, in _connect_sock\n    await loop.sock_connect(sock, address)\n  File \"/usr/local/lib/python3.14/asyncio/selector_events.py\", line 643, in sock_connect\n    return await fut\n           ^^^^^^^^^\n  File \"/usr/local/lib/python3.14/asyncio/selector_events.py\", line 683, in _sock_connect_cb\n    raise OSError(err, f'Connect call failed {address}')\nConnectionRefusedError: [Errno 111] Connect call failed ('<redacted-ip>', 8096)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"music_assistant/providers/jellyfin/__init__.py\", line 124, in handle_async_init\n    self._client = await authenticate_by_name(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"aiojellyfin/__init__.py\", line 286, in authenticate_by_name\n    res = await session_config.session.post(\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<8 lines>...\n    )\n    ^\n  File \"aiohttp/client.py\", line 858, in _request\n    resp = await handler(req)\n           ^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/client.py\", line 812, in _connect_and_send_request\n    conn = await self._connector.connect(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        req, traces=traces, timeout=real_timeout\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"aiohttp/connector.py\", line 657, in connect\n    proto = await self._create_connection(req, traces, timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/connector.py\", line 1242, in _create_connection\n    _, proto = await self._create_direct_connection(req, traces, timeout)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"aiohttp/connector.py\", line 1620, in _create_direct_connection\n    raise last_exc\n  File \"aiohttp/connector.py\", line 1589, in _create_direct_connection\n    transp, proto = await self._wrap_create_connection(\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<7 lines>...\n    )\n    ^\n  File \"aiohttp/connector.py\", line 1324, in _wrap_create_connection\n    raise client_error(req.connection_key, exc) from exc\naiohttp.client_exceptions.ClientConnectorError: Cannot connect to host <redacted-ip>:8096 ssl:default [Connect call failed ('<redacted-ip>', 8096)]\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"music_assistant/mass.py\", line 1020, in load_provider\n    await self.load_provider_config(prov_conf)\n  File \"music_assistant/mass.py\", line 931, in load_provider_config\n    await self._load_provider(prov_conf)\n  File \"music_assistant/mass.py\", line 1425, in _load_provider\n    await provider.handle_async_init()\n  File \"music_assistant/providers/jellyfin/__init__.py\", line 130, in handle_async_init\n    raise LoginFailed(f\"Authentication failed: {err}\") from err\nmusic_assistant_models.errors.LoginFailed: Authentication failed: Cannot connect to host <redacted-ip>:8096 ssl:default [Connect call failed ('<redacted-ip>', 8096)]\n"
+    }
+  ],
+  "sections": {
+    "core.cache": {
+      "db_schema_version": 9,
+      "db_size_mb": 26.2,
+      "entries": 10862
+    },
+    "core.music": {
+      "db_schema_version": 60,
+      "sync_tasks_active": 0
+    },
+    "core.player_queues": {
+      "total": 7,
+      "active": 7,
+      "by_state": {
+        "idle": 7
+      },
+      "flow_mode_active": 3,
+      "dynamic_mode_active": 0,
+      "total_items": 27
+    },
+    "core.players": {
+      "players_synced": 0,
+      "players_with_active_group": 0,
+      "announcements_in_progress": 0,
+      "pending_protocol_evaluations": 0
+    },
+    "core.streams": {
+      "ffmpeg_version": "9.0.1",
+      "libsoxr_support": true,
+      "active_output_streams": 0,
+      "active_announcements": 0,
+      "active_announcement_renders": 0,
+      "active_live_announcements": 0,
+      "publish_ip_configured": false
+    },
+    "core.tasks": {
+      "total": 27,
+      "by_status": {
+        "success": 26,
+        "partial_success": 1
+      },
+      "scheduled": 25,
+      "pending_queue": 0,
+      "max_concurrent": 2
+    },
+    "provider.airplay": {
+      "dacp_server_running": true,
+      "ptp_daemon_running": true,
+      "ptp_daemon_ready": true,
+      "active_streams": 0,
+      "streams_by_type": {},
+      "streams_by_route": {}
+    },
+    "provider.chromecast": {
+      "discovery_running": true,
+      "pending_discoveries": 0,
+      "cast_groups": 0,
+      "cast_speakers": 1,
+      "models": {
+        "BRAVIA 4K AE1": 1
+      }
+    },
+    "provider.dlna": {
+      "ignored_devices": 0,
+      "devices": [
+        {
+          "model": "Denon Home 200",
+          "manufacturer": "Denon",
+          "available": true,
+          "eventing": true,
+          "last_seen_age_sec": 41
+        },
+        {
+          "model": "Denon Home 200",
+          "manufacturer": "Denon",
+          "available": true,
+          "eventing": true,
+          "last_seen_age_sec": 10
+        }
+      ]
+    },
+    "provider.hass": {
+      "connected": true,
+      "ha_version": "2026.9.3",
+      "listener_active": true,
+      "player_controls": 0
+    },
+    "provider.sonos": {
+      "speakers_total": 0,
+      "speakers_connected": 0,
+      "coordinators": 0,
+      "native_playback": 0,
+      "protocol_playback": 0
+    }
+  }
+}
